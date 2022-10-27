@@ -212,7 +212,7 @@ func release(source string, destination string, output string) error {
 }
 
 func main() {
-	err := release("Loyalsoldier/domain-list-custom", "1715173329/sing-geosite", "geosite.db")
+	err := release("yangchuansheng/domain-list-custom", "yangchuansheng/sing-geosite", "geosite.db")
 	if err != nil {
 		logrus.Fatal(err)
 	}
